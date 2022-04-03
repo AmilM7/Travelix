@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 20px;
+    font-size: 25px;
+    font-family: "Baskerville Old Face";
+    color:#000428;
+
+}
+
+ol {
+
+    font-size: 25px;
+    font-family: "Baskerville Old Face";
+    color:#000428;
+}
+.Posebni{
+    margin-left: 60px;
+}
+
