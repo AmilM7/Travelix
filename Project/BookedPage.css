@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+ h1 {
+    text-align: center;
+    margin-top: 90px;
+    color: #000428;
+     font-size: 40px;
+}

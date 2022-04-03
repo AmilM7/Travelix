@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body {
+    background: linear-gradient(to left, #d7e1ec, #ffffff) ;
+}
+
+.Hello {
+    margin: 30px 30px 10px 10px;
+    text-align: right;
+    font-size: 25px;
+    color: #000428;
+}
+#animated_title .l {
+    display: inline-block;
+    line-height: 1em;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #000428;
+    font-size: 50px;
+}
+.leftPicture, .rightPicture {
+    height: 450px;
+    width: 600px;
+    border-radius: 25px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.7);
+    transition: all 0.3s ease-in;
+}
+ .leftPicture, .rightPicture:hover{
+    transform: scale(1.1);
+}
+
+
+.WrapperTrending {
+    width: 85%;
+    margin: 20px auto 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentLeft, .contentRight {
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2 {
+    color: #000428;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.contentRight .details {
+    padding-left: 3%;
+}
+.contentLeft .details {
+    padding-right: 3%;
+}
+
+p {
+    color: rgba(0,4,81,0.94);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.Href{
+    margin-top: 20px;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #000428;
+    width: fit-content;
+    transition: all 0.3s ease-in;
+}
+
+.Href:hover {
+    background-color: rgba(16,17,81,0.94);
+    padding: 8px 12px;
+}
+
+.wrapper\+ {
+    margin-top: 8%;
+}
+
+footer {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+
+.zadnjiHref {
+    display: inline-block;
+    font-size: 30px;
+    background-color: #000428;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+.zadnjiHref:hover {
+    background-color: rgba(16, 17, 81, 0.94);
+
+}
+
+@media(max-width: 600px){
+    .Hello{
+        font-size: 20px;
+    }
+    .WrapperTrending{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+    .contentRight{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contentLeft{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .details{
+        width: 100%;
+        order: 1;
+    }
+    .wrapper\+{
+        width: 100%;
+    }
+    .contentLeft .details {
+        margin-left: 3%;
+    }
+    .leftPicture {
+        width: 100%;
+        height: 100%;
+        padding: 2%;
+
+    }
+    .rightPicture{
+        width: 100%;
+        height: 100%;
+        padding: 2%;
+    }
+    h2{
+        margin-top: 10px;
+    }
+}
+

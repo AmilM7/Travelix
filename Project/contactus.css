@@ -1,0 +1,94 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(to left, #d7e1ec, #ffffff) ;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 700px;
+	
+}
+.tekst{
+	text-align: center;
+}
+.tekst p{
+	margin-top: 15px;
+}
+.city h3{
+	justify-content: center;
+	margin-top: 20px;
+    
+}
+aside{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.sadrzaj{
+	display: flex;
+	margin-top: 30px;
+	align-items: center;
+}
+
+.icons{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	color: #000428;
+	font-size: 50px;
+}
+
+#animated_title .l {
+	display: inline-block;
+	line-height: 1em;
+}
+
+h3 {
+	margin-top: 40px;
+	text-align: center;
+	color: #000428;
+}
+
+@media(max-width: 600px){
+
+	.wrapper, .text, aside, .city{
+		width: 100%;
+	}
+	.city h3{
+		text-align: center;
+	}
+	.sadrzaj{
+		width: 100%;
+		flex-direction: column;
+	}
+	aside {
+		flex-direction: column;
+	}
+
+	.city h3{
+		justify-content: center;
+		margin-top: 20px;
+		font-size: 30px;
+	}
+
+	.icons {
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-bottom: 10%;
+
+	}
+}
+
+

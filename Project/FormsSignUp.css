@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #d7e1ec;
+    font-family: 'Orelega One', cursive;
+}
+
+div {
+    margin: 20px auto;
+}
+
+form {
+    align-items: center;
+    text-align: center;
+}
+.wrapper {
+    width: 800px;
+    background-color: rgba(224,228,223,0.94);
+    border-radius: 6px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 15px;
+}
+input[type=text],input[type=email],input[type=tel],input[type=date],input[type=password],input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type="email"]:invalid {
+    color: red;
+}
+
+input[type="email"]:valid {
+    color: mediumblue;
+}
+
+input[type="tel"]:invalid {
+    color: rgba(255,2,5,0.94);
+}
+
+input[type="tel"]:valid {
+    color: mediumblue;
+}
+
+input:focus {
+    background-color: #cccccc;
+}
+
+
+button {
+
+    display: inline-block;
+    width: 30%;
+    background-color: #004e92;
+    padding:15px ;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    margin-bottom: 30px;
+}
+
+button:hover  {
+    background-color: #000428;
+}
+
+.error {
+    margin: 20px auto 0;
+    background-color: rgba(136,0,3,0.94);
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Zadnji {
+    display: inline-block;
+    margin: 0 auto;
+    color: inherit;
+}
+
+
+
+@media (max-width:600px) {
+.wrapper {
+    width: 100%;
+    margin: 0;
+
+}
+    form {
+        width: 100%;
+    }
+
+    fieldset {
+        width: 100%;
+
+    }
+
+    fieldset div {
+        width: 100%;
+    }
+}
