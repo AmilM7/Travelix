@@ -1,8 +1,8 @@
 # Travelix
 
-##### * This application is called Travelix. The purpose of this application is to allow users to reserve different events in Belgrade and Zagreb. It is like an application for travel agency. 
-##### * User is able to log in, reserve program, cancel it. With reserving particular program, specific event, accomodation ##### and transport is included. User has option to filter event. One user can only reserve one event. Editing profile is available.
-##### * Admin has option to see all events, their revenue, number of guests. There is possibility to add everything that is related with events such as a new transport,  hotel, or whole program.  There is also interesting statistics for Admin. #####
+##### * This application is called Travelix. The purpose of this application is to allow users to reserve different events in Belgrade and Zagreb. It is like an application for a travel agency. 
+##### * User is able to log in, reserve the program, and cancel it. With reserving a particular program, specific event, accommodation ##### and transport are included. The user has the option to filter events. One user can only reserve one event. The editing profile is available.
+##### * Admin has the option to see all events, their revenue, and the number of guests. There is a possibility to add everything that is related to events such as a new transport,  hotel, or whole program.  There are also interesting statistics for Admin. #####
 
 # Used 
 * PHP
@@ -12,4 +12,4 @@
 * Xampp
 * MySql 
 
-_This is my first "serious" application that was developed 1/2 years ago. The code is a little bit mess. I used Xampp on local machine to test application._
+_This is my first "serious" application that was developed 1/2 years ago. The code is a little bit messy. I used Xampp on the local machine to test application._
