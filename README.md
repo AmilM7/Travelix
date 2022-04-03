@@ -6,7 +6,7 @@
 ##### User has option to filter event. One user can only reserve one event. Editing profile is available.
 ##### - Admin has option to see all events, their revenue, number of guests. There is possibility to add everything that is related with events such as a new transport, ##### hotel, or whole program.  There is also interesting statistics for Admin.
 
-#Used
+# Used
 
 ##### PHP
 ##### HTML
