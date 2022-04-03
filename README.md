@@ -5,12 +5,11 @@
 ##### * Admin has option to see all events, their revenue, number of guests. There is possibility to add everything that is related with events such as a new transport,  hotel, or whole program.  There is also interesting statistics for Admin. #####
 
 # Used 
-
-##### PHP
- HTML
- CSS
- JavaScript
- Xampp
- MySql #####
+* PHP
+* HTML
+* CSS
+* JavaScript
+* Xampp
+* MySql 
 
 _This is my first "serious" application that was developed 1/2 years ago. The code is a little bit mess. I used Xampp on local machine to test application._
