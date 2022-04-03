@@ -7,10 +7,10 @@
 # Used 
 
 ##### PHP
-##### HTML
-##### CSS
-##### JavaScript
-##### Xampp
-##### MySql
+ HTML
+ CSS
+ JavaScript
+ Xampp
+ MySql #####
 
 _This is my first "serious" application that was developed 1/2 years ago. The code is a little bit mess. I used Xampp on local machine to test application._
