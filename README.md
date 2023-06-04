@@ -12,4 +12,4 @@
 * Xampp
 * MySql 
 
-_This is my first "serious" application that was developed 1/2 years ago. The code is a little bit messy. I used Xampp on the local machine to test application._
+_This is my first "serious" application that was developed years ago. The code is a little bit messy. I used Xampp on the local machine to test application._
